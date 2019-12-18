@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Calcular el DNI</title>
+    <script type="text/javascript" src="proyecto1.js"></script>
+</head>
+<body>
+    <h1>¡Calcula tu número del DNI!</h1>
+    Número: <input class="cajatexto" type="text" id="numero" name="numero" maxlength="8" onkeypress="detectarTecla(event)"><br/><br/>
+    Letra: <input class="cajatexto" type="text" id="letra" name="letra" onkeypress="detectarTecla(event)"><br/><br/>
+    <button id="bcalcular" class="bcalcular" type="button" name="mresultado" onclick="calcularDni()">Mostrar resultado</button>
+    <br/>
+    <a id="resultado"></a>
+    <a id="respuesta"></a>
+</body>
+</html>
